@@ -1,0 +1,153 @@
+/* css/style.css */
+@media print {
+    .fa-external-link {
+      display: none;
+    }
+    .no-print {
+      display: none;
+    }
+    a[href]:after {
+      content: none !important;
+    }
+    .pagebreak {
+      page-break-before: always;
+    }
+  }
+  
+  @page {
+    margin: 1cm 1cm 1cm;
+  }
+  
+  .resume-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .resume-header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  
+  .resume-header h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+  
+  .resume-header h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  
+  .basics-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .basics-info p {
+    margin-bottom: 5px;
+  }
+  
+  .section-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+  }
+  
+  .job {
+    margin-bottom: 30px;
+  }
+  
+  .job-header {
+    margin-bottom: 10px;
+  }
+  
+  .job-company {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .job-position {
+    font-style: italic;
+  }
+  
+  .job-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .job-summary {
+    margin-top: 10px;
+  }
+  
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .education-header {
+    margin-bottom: 10px;
+  }
+  
+  .education-institution {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .education-area {
+    font-style: italic;
+  }
+  
+  .education-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .skill-group {
+    margin-bottom: 15px;
+  }
+  
+  .skill-group-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .skill-item {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+  }

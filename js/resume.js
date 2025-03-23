@@ -1,8 +1,8 @@
 // js/resume.js - This will contain your resume data
 const resumeData = {
     "basics": {
-      "name": "Your Name",
-      "label": "Your Professional Title",
+      "name": "Jason Wilson",
+      "label": "Cybersecurity and Technology Leader",
       "image": "https://via.placeholder.com/250", // Replace with your image URL
       "email": "your.email@example.com",
       "phone": "(555) 555-5555",

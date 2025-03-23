@@ -1,5 +1,5 @@
 // js/resume.js - This will contain your resume data
-const myresumeData = {
+const resumeData = {
     "basics": {
       "name": "Your Name",
       "label": "Your Professional Title",
